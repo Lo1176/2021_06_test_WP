@@ -28,7 +28,7 @@ use Google\Protobuf\StringValue;
 use Google\Protobuf\Struct;
 use Google\Protobuf\Timestamp;
 use Google\Protobuf\Value;
-use GuzzleHttp\Psr7;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Psr7;
 use PHPUnit\Framework\TestCase;
 
 /**

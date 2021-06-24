@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp;
 
 /**
  * Debug function used to describe the provided value type and class.

@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp\Cookie;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Cookie;
 
 /**
  * Set-Cookie object

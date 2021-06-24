@@ -1,9 +1,9 @@
 <?php
 
-namespace GuzzleHttp\Exception;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Exception;
 
-use GuzzleHttp\BodySummarizer;
-use GuzzleHttp\BodySummarizerInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\BodySummarizer;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\BodySummarizerInterface;
 use Psr\Http\Client\RequestExceptionInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

@@ -1,13 +1,13 @@
 <?php
 
-namespace GuzzleHttp\Handler;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Handler;
 
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\HandlerStack;
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\TransferStats;
-use GuzzleHttp\Utils;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Exception\RequestException;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\HandlerStack;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise as P;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\PromiseInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\TransferStats;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Utils;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;

@@ -34,8 +34,8 @@ namespace Google\ApiCore;
 
 use Google\ApiCore\ResourceTemplate\AbsoluteResourceTemplate;
 use Google\Protobuf\Internal\Message;
-use GuzzleHttp\Psr7;
-use GuzzleHttp\Psr7\Request;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Psr7;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Psr7\Request;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\UriInterface;
 

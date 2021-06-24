@@ -48,7 +48,7 @@ use Grpc\BaseStub;
 use Grpc\Channel;
 use Grpc\ChannelCredentials;
 use Grpc\Interceptor;
-use GuzzleHttp\Promise\Promise;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\Promise;
 
 /**
  * A gRPC based transport implementation.

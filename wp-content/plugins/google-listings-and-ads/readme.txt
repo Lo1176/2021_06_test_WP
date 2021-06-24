@@ -1,10 +1,10 @@
 === Google Listings & Ads ===
 Contributors: automattic, google, woocommerce
 Tags: woocommerce, google, listings, ads
-Requires at least: 5.3
+Requires at least: 5.5
 Tested up to: 5.7
 Requires PHP: 7.3
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -54,7 +54,7 @@ Get up to  $150\* in ad credit to help you get started on Smart Shopping Campaig
 = The eligibility criteria: =
 - The account has no other promotions applied.
 - The account is billed to a country where Google Partners promotions are offered.
-- The account served its first ad impression within the last 14 days. 
+- The account served its first ad impression within the last 14 days.
 
 *Review the static terms [here](http://www.google.com/ads/coupons/terms.html).*
 
@@ -62,8 +62,8 @@ Get up to  $150\* in ad credit to help you get started on Smart Shopping Campaig
 
 = Minimum Requirements =
 
-* WordPress 5.3 or greater
-* WooCommerce 4.5 or greater
+* WordPress 5.5 or greater
+* WooCommerce 5.2 or greater
 * PHP version 7.3 or greater (PHP 7.4 or greater is recommended)
 * MySQL version 5.6 or greater
 
@@ -114,6 +114,36 @@ Smart Shopping campaigns are pay-per-click, meaning you only pay when someone cl
 Yes, you can run both at the same time, and we recommend it! In the US, advertisers running free listings and ads together have seen an average of over 50% increase in clicks and over 100% increase in impressions on both free listings and ads on the Shopping tab. Your store is automatically opted into free listings automatically and can choose to run a paid Smart Shopping campaign.
 
 == Changelog ==
+
+= 1.1.0 - 2021-06-23 =
+* Fix - Adds warning message and checkbox for reclaiming URL in Google Merchant Center account connection setup.
+* Fix - Align not synced product stats.
+* Fix - Automatically set default values for Setup MC and Edit Free Listings' Target Audience.
+* Fix - Cancel the focus from the "Remove" links after removing a program from the programs table.
+* Fix - Catch invalid product ID.
+* Fix - Cleanup target countries per product.
+* Fix - Clear product stats cache on every product sync .
+* Fix - Combine the "flat" and "manual" options of shipping rate and time in the MC setup flow to avoid possible errors caused by inconsistent shipping setup logic.
+* Fix - Correct formatting string of "day" for status box on the Product Feed page.
+* Fix - Handle null postmeta values gracefully.
+* Fix - Include the Ads account currency when checking the status.
+* Fix - Prevent conflicts when storing the channel visibility value.
+* Fix - Resolve Guzzle Conflict with other plugins.
+* Fix - Strip shortcodes used in the product description when syncing to Google.
+* Fix - The incorrect enabled state after removing a disabled program from the programs table.
+* Fix - Update deprecated `stylelint-config-wordpress` to `@wordpress/stylelint-config@19.0.4`,.
+* Fix - Use WooCommerce CRUD class methods to handle metadata.
+* Fix - Use batch productstatuses.
+* Fix - Use get_home_url for retrieving the site URL.
+* Fix - Use product's short description if no description is set.
+* Tweak - Optimize product queries.
+* Tweak - Reduce the default productstatus batch size.
+* Tweak - Set batch size to 100 for the "update all products" job.
+* Tweak - Show "Unavailable" and more descriptive tooltip when Google reports API fails.
+* Tweak - Standardize action and filter hook prefix.
+* Tweak - Use target countries as shipping destinations.
+* Tweak - WC 5.4 compatibility.
+* Update - Increase required minimum WordPress and WooCommerce versions.
 
 = 1.0.0 - 2021-06-08 =
 * Fix - Add Tracks events for site claim and URL switching.
@@ -198,55 +228,5 @@ Yes, you can run both at the same time, and we recommend it! In the US, advertis
 * Fix - Sort report API results by date index.
 * Fix - Sort the merged programs table.
 * Tweak - WC 5.4 compatibility.
-
-= 0.5.6 - 2021-05-17 =
-* Fix - Add Color, Material, and Pattern attributes.
-* Fix - Add Size, Size System, and Size Type product attributes.
-* Fix - Add WooCommerce Brands integration.
-* Fix - Add age group and adult product attributes.
-* Fix - Add bcmath compatibility library.
-* Fix - Add extra product attributes.
-* Fix - Add gender attribute.
-* Fix - Add hook and mocked data for testing API requests.
-* Fix - Add more props and formatting to the shared summary component for report pages.
-* Fix - Add spend column to product reports.
-* Fix - Adjust chart to fit with API schema and visual design, and extract as a shared component for report pages.
-* Fix - Change 'Get started' to 'Set up free listings in Google' in small copy text.
-* Fix - Code refactor with useIsEqualRefValue.
-* Fix - Conflict resolution in Merchant Center account connection process.
-* Fix - Connect products report page to the data source of report API.
-* Fix - Display ReclaimURLCard upon getting 403 from SwitchURLCard.
-* Fix - Display or hide attributes based on product type.
-* Fix - Fix dashboard performance when the response comes w/o data.
-* Fix - Get report parameter defaults using a helper function.
-* Fix - Opens documentation in new tab upon clicking Help button.
-* Fix - Product Feed UI with API.
-* Fix - Remove margin-bottom for checkboxes in Table.
-* Fix - Replacement polyfills for mbstring.
-* Fix - Run async jobs only when Google is connected.
-* Fix - Setup MC: display error message when Google MC Account API call failed.
-* Fix - Show selected "Free Listings" filter / Handle URL param id `0` as valid in `getIdsFromQuery`.
-* Fix - Some README and contributor documentation updates.
-* Fix - Standardize product statuses and caches.
-* Fix - Update Product Feed status labels.
-* Fix - Use shared `SummarySection` in Programs Report page.
-* Tweak - WC 5.3 compatibility.
-
-= 0.5.5 - 2021-05-07 =
-* Fix - Add a custom hook to get calculated data and its status for the Products Reporting page.
-* Fix - Add products reporting data source picker and connect all UI query interactions to page route.
-* Fix - Adjust report data interfaces and structures in the wp.data.
-* Fix - Clean up TODO comments.
-* Fix - Connect Programs filter to data source.
-* Fix - Display "Continue setup" button text in Get Started page.
-* Fix - Display "Issues to Resolve" in Product Feed.
-* Fix - Display product statistics in UI.
-* Fix - Don't enable Continue button when MC account is not connected.
-* Fix - Escape and sanitize site URL.
-* Fix - Fix table title and icon button spacing.
-* Fix - Product feed API endpoint.
-* Fix - Remove Beta Testing UI for production release.
-* Fix - Resolve `@woocommerce/experimental.Text` to suppress build warnings.
-* Fix - Specify `argsRef.current` as dependency in `useAppSelectDispatch`.
 
 [See changelog for all versions](https://raw.githubusercontent.com/woocommerce/google-listings-and-ads/trunk/changelog.txt).

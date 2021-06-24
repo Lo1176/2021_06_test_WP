@@ -1,6 +1,6 @@
 <?php
 
-namespace GuzzleHttp\Promise;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise;
 
 /**
  * Get the global task queue used for promise resolution.

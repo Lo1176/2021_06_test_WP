@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Google\Auth;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth;
 
-use Google\Auth\Credentials\GCECredentials;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Credentials\GCECredentials;
 use Psr\Cache\CacheItemPoolInterface;
 
 /**

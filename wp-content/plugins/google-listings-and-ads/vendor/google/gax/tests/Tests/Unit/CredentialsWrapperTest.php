@@ -33,14 +33,14 @@
 namespace Google\ApiCore\Tests\Unit;
 
 use Google\ApiCore\CredentialsWrapper;
-use Google\Auth\ApplicationDefaultCredentials;
-use Google\Auth\Cache\MemoryCacheItemPool;
-use Google\Auth\Cache\SysVCacheItemPool;
-use Google\Auth\CredentialsLoader;
-use Google\Auth\FetchAuthTokenCache;
-use Google\Auth\FetchAuthTokenInterface;
-use Google\Auth\UpdateMetadataInterface;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\ApplicationDefaultCredentials;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Cache\MemoryCacheItemPool;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Cache\SysVCacheItemPool;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\CredentialsLoader;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\FetchAuthTokenCache;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\FetchAuthTokenInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\UpdateMetadataInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\HttpHandler\HttpHandlerFactory;
 use GPBMetadata\Google\Api\Auth;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;

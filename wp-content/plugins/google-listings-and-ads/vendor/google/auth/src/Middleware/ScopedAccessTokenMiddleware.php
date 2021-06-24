@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-namespace Google\Auth\Middleware;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Middleware;
 
-use Google\Auth\CacheTrait;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\CacheTrait;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Http\Message\RequestInterface;
 

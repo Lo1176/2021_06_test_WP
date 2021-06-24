@@ -49,13 +49,13 @@ use Google\ApiCore\Transport\GrpcTransport;
 use Google\ApiCore\Transport\RestTransport;
 use Google\ApiCore\Transport\TransportInterface;
 use Google\ApiCore\ValidationException;
-use Google\Auth\FetchAuthTokenInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\FetchAuthTokenInterface;
 use Google\LongRunning\Operation;
 use GPBMetadata\Google\Api\Auth;
 use Grpc\Gcp\ApiConfig;
 use Grpc\Gcp\Config;
-use GuzzleHttp\Promise\FulfilledPromise;
-use GuzzleHttp\Promise\PromiseInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\FulfilledPromise;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\PromiseInterface;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 

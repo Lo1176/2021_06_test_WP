@@ -39,7 +39,7 @@ use Google\ApiCore\Middleware\RetryMiddleware;
 use Google\ApiCore\RetrySettings;
 use Google\Protobuf\Internal\Message;
 use Google\Rpc\Code;
-use GuzzleHttp\Promise\Promise;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\Promise;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

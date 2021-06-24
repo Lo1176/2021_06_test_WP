@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-namespace Google\Auth\Subscriber;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Subscriber;
 
-use Google\Auth\FetchAuthTokenInterface;
-use Google\Auth\GetQuotaProjectInterface;
-use GuzzleHttp\Event\BeforeEvent;
-use GuzzleHttp\Event\RequestEvents;
-use GuzzleHttp\Event\SubscriberInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\FetchAuthTokenInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\GetQuotaProjectInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Event\BeforeEvent;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Event\RequestEvents;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Event\SubscriberInterface;
 
 /**
  * AuthTokenSubscriber is a Guzzle Subscriber that adds an Authorization header

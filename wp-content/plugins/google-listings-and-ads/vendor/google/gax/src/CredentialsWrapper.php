@@ -33,16 +33,16 @@ namespace Google\ApiCore;
 
 use DomainException;
 use Exception;
-use Google\Auth\ApplicationDefaultCredentials;
-use Google\Auth\Cache\MemoryCacheItemPool;
-use Google\Auth\CredentialsLoader;
-use Google\Auth\FetchAuthTokenCache;
-use Google\Auth\FetchAuthTokenInterface;
-use Google\Auth\GetQuotaProjectInterface;
-use Google\Auth\UpdateMetadataInterface;
-use Google\Auth\HttpHandler\Guzzle5HttpHandler;
-use Google\Auth\HttpHandler\Guzzle6HttpHandler;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\ApplicationDefaultCredentials;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Cache\MemoryCacheItemPool;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\CredentialsLoader;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\FetchAuthTokenCache;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\FetchAuthTokenInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\GetQuotaProjectInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\UpdateMetadataInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\HttpHandler\Guzzle5HttpHandler;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\HttpHandler\Guzzle6HttpHandler;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\HttpHandler\HttpHandlerFactory;
 use Psr\Cache\CacheItemPoolInterface;
 
 /**
