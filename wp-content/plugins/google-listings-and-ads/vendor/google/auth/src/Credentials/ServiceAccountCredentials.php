@@ -15,14 +15,14 @@
  * limitations under the License.
  */
 
-namespace Google\Auth\Credentials;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Credentials;
 
-use Google\Auth\CredentialsLoader;
-use Google\Auth\GetQuotaProjectInterface;
-use Google\Auth\OAuth2;
-use Google\Auth\ProjectIdProviderInterface;
-use Google\Auth\ServiceAccountSignerTrait;
-use Google\Auth\SignBlobInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\CredentialsLoader;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\GetQuotaProjectInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\OAuth2;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\ProjectIdProviderInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\ServiceAccountSignerTrait;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\SignBlobInterface;
 use InvalidArgumentException;
 
 /**

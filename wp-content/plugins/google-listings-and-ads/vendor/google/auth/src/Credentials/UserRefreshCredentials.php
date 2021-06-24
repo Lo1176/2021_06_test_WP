@@ -15,11 +15,11 @@
  * limitations under the License.
  */
 
-namespace Google\Auth\Credentials;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Credentials;
 
-use Google\Auth\CredentialsLoader;
-use Google\Auth\GetQuotaProjectInterface;
-use Google\Auth\OAuth2;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\CredentialsLoader;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\GetQuotaProjectInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\OAuth2;
 
 /**
  * Authenticates requests using User Refresh credentials.

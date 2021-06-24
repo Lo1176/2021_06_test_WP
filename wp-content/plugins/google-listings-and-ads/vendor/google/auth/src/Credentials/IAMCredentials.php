@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Google\Auth\Credentials;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Credentials;
 
 /**
  * Authenticates requests using IAM credentials.

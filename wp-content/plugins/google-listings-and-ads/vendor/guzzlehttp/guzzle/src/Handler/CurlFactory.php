@@ -1,15 +1,15 @@
 <?php
 
-namespace GuzzleHttp\Handler;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Handler;
 
-use GuzzleHttp\Exception\ConnectException;
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Promise as P;
-use GuzzleHttp\Promise\FulfilledPromise;
-use GuzzleHttp\Promise\PromiseInterface;
-use GuzzleHttp\Psr7\LazyOpenStream;
-use GuzzleHttp\TransferStats;
-use GuzzleHttp\Utils;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Exception\ConnectException;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Exception\RequestException;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise as P;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\FulfilledPromise;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\PromiseInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Psr7\LazyOpenStream;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\TransferStats;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Utils;
 use Psr\Http\Message\RequestInterface;
 
 /**
@@ -397,7 +397,7 @@ class CurlFactory implements CurlFactoryInterface
         }
         $sink = $options['sink'];
         if (!\is_string($sink)) {
-            $sink = \GuzzleHttp\Psr7\stream_for($sink);
+            $sink = \Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Psr7\stream_for($sink);
         } elseif (!\is_dir(\dirname($sink))) {
             // Ensure that the directory exists before failing in curl.
             throw new \RuntimeException(\sprintf('Directory %s does not exist for sink value of %s', \dirname($sink), $sink));

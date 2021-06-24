@@ -37,7 +37,7 @@ use Google\ApiCore\Call;
 use Google\ApiCore\ClientStream;
 use Google\ApiCore\ServerStream;
 use Google\ApiCore\ValidationException;
-use GuzzleHttp\Promise\PromiseInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\PromiseInterface;
 
 interface TransportInterface
 {

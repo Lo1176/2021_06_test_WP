@@ -29,12 +29,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Google\\Auth\\": "src"
+      "Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\Google\\Auth\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Google\\Auth\\Tests\\": "tests"
+      "Automattic\\WooCommerce\\GoogleListingsAndAds\\Vendor\\Google\\Auth\\Tests\\": "tests"
     }
   }
 }

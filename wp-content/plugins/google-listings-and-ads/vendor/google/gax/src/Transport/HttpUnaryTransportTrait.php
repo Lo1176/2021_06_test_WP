@@ -34,7 +34,7 @@ namespace Google\ApiCore\Transport;
 use Exception;
 use Google\ApiCore\Call;
 use Google\ApiCore\ValidationException;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\HttpHandler\HttpHandlerFactory;
 
 /**
  * A trait for shared functionality between transports that support only unary RPCs using simple

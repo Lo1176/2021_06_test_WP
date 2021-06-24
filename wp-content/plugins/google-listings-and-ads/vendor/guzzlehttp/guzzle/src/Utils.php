@@ -1,12 +1,12 @@
 <?php
 
-namespace GuzzleHttp;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp;
 
-use GuzzleHttp\Exception\InvalidArgumentException;
-use GuzzleHttp\Handler\CurlHandler;
-use GuzzleHttp\Handler\CurlMultiHandler;
-use GuzzleHttp\Handler\Proxy;
-use GuzzleHttp\Handler\StreamHandler;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Exception\InvalidArgumentException;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Handler\CurlHandler;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Handler\CurlMultiHandler;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Handler\Proxy;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Handler\StreamHandler;
 use Psr\Http\Message\UriInterface;
 
 final class Utils

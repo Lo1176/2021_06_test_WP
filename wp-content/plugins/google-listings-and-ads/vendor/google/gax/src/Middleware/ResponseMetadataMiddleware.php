@@ -32,8 +32,8 @@
 namespace Google\ApiCore\Middleware;
 
 use Google\ApiCore\Call;
-use GuzzleHttp\Promise\Promise;
-use GuzzleHttp\Promise\PromiseInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\Promise;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\PromiseInterface;
 
 /**
  * Middleware which transforms $response into [$response, $metadata]

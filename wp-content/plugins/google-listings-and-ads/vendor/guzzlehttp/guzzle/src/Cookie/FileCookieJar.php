@@ -1,8 +1,8 @@
 <?php
 
-namespace GuzzleHttp\Cookie;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Cookie;
 
-use GuzzleHttp\Utils;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Utils;
 
 /**
  * Persists non-session cookies using a JSON formatted file

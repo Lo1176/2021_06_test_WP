@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-namespace Google\Auth;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth;
 
 use DomainException;
-use Google\Auth\Credentials\AppIdentityCredentials;
-use Google\Auth\Credentials\GCECredentials;
-use Google\Auth\Credentials\ServiceAccountCredentials;
-use Google\Auth\HttpHandler\HttpClientCache;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
-use Google\Auth\Middleware\AuthTokenMiddleware;
-use Google\Auth\Subscriber\AuthTokenSubscriber;
-use GuzzleHttp\Client;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Credentials\AppIdentityCredentials;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Credentials\GCECredentials;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Credentials\ServiceAccountCredentials;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\HttpHandler\HttpClientCache;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\HttpHandler\HttpHandlerFactory;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Middleware\AuthTokenMiddleware;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Subscriber\AuthTokenSubscriber;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Client;
 use InvalidArgumentException;
 use Psr\Cache\CacheItemPoolInterface;
 

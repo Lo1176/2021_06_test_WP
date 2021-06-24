@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-namespace Google\Auth\Middleware;
+namespace Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Middleware;
 
-use Google\Auth\FetchAuthTokenInterface;
-use Google\Auth\GetQuotaProjectInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\FetchAuthTokenInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\GetQuotaProjectInterface;
 use Psr\Http\Message\RequestInterface;
 
 /**

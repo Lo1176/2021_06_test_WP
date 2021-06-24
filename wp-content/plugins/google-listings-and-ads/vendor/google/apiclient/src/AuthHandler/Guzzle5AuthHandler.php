@@ -2,14 +2,14 @@
 
 namespace Google\AuthHandler;
 
-use Google\Auth\CredentialsLoader;
-use Google\Auth\HttpHandler\HttpHandlerFactory;
-use Google\Auth\FetchAuthTokenCache;
-use Google\Auth\Subscriber\AuthTokenSubscriber;
-use Google\Auth\Subscriber\ScopedAccessTokenSubscriber;
-use Google\Auth\Subscriber\SimpleSubscriber;
-use GuzzleHttp\Client;
-use GuzzleHttp\ClientInterface;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\CredentialsLoader;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\HttpHandler\HttpHandlerFactory;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\FetchAuthTokenCache;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Subscriber\AuthTokenSubscriber;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Subscriber\ScopedAccessTokenSubscriber;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\Google\Auth\Subscriber\SimpleSubscriber;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Client;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\ClientInterface;
 use Psr\Cache\CacheItemPoolInterface;
 
 /**

@@ -39,7 +39,7 @@ use Google\ApiCore\ClientStream;
 use Google\ApiCore\ServerStream;
 use Google\ApiCore\Transport\TransportInterface;
 use Google\Rpc\Code;
-use GuzzleHttp\Promise\Promise;
+use Automattic\WooCommerce\GoogleListingsAndAds\Vendor\GuzzleHttp\Promise\Promise;
 
 class MockTransport implements TransportInterface
 {
