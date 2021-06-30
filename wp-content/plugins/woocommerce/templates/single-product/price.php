@@ -22,4 +22,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $product;
 
 ?>
-<p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) ); ?>"><?php echo $product->get_price_html(); ?></p>
+<p class="<?php echo esc_attr( apply_filters( 'woocommerce_product_price_class', 'price' ) ); ?>"><?php echo $product->get_price_html(); ?></p><br>
+<h3>Vous pouvez personnaliser votre produit</h3>
+<!-- <button onclick = "myfunction()">Personaliser</button> -->
+<a class="button" href="https://lignew.clients.arkima.io/configurator/app/index.html" target="_blank">Personnaliser</a>
+
