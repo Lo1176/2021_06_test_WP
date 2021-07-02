@@ -10,8 +10,6 @@ RewriteBase /www/2021_06_test_WP/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteCond %{HTTP:Authorization} ^(.*)
-# RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
 RewriteRule . /www/2021_06_test_WP/index.php [L]
 </IfModule>
 
