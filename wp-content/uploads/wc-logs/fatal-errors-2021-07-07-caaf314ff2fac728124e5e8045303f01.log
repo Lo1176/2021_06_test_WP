@@ -1,0 +1,251 @@
+2021-07-07T07:56:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1024, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T07:58:49+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1122, 'Async Request')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#15 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T07:58:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1125, 'Async Request')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T07:59:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1126, 'Async Request')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T07:59:57+00:00 CRITICAL Uncaught Error: Cannot use [] for reading in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php:11
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): mytheme_register_assets('')
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(3009): do_action('wp_head')
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/header.php(8): wp_head()
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(730): require_once('/Users/laurentb...')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(676): load_template('/Users/laurentb...', true, Array)
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php(10): get_header()
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template-loader.php(106): include('/Users/laurentb...')
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-blog-header.php(19): require_once('/Users/laurentb...')
+#15 /Users/laurentbinder/Sites/www/2021_06_test_WP/index.php(17): require('/Users/laurentb...')
+#16 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php à la ligne 11
+
+2021-07-07T08:01:25+00:00 CRITICAL Uncaught Error: Cannot use [] for reading in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php:11
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): mytheme_register_assets('')
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(3009): do_action('wp_head')
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/header.php(8): wp_head()
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(730): require_once('/Users/laurentb...')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(676): load_template('/Users/laurentb...', true, Array)
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php(10): get_header()
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template-loader.php(106): include('/Users/laurentb...')
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-blog-header.php(19): require_once('/Users/laurentb...')
+#15 /Users/laurentbinder/Sites/www/2021_06_test_WP/index.php(17): require('/Users/laurentb...')
+#16 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php à la ligne 11
+
+2021-07-07T08:01:28+00:00 CRITICAL Uncaught Error: Cannot use [] for reading in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php:11
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): mytheme_register_assets('')
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(3009): do_action('wp_head')
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/header.php(8): wp_head()
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(730): require_once('/Users/laurentb...')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(676): load_template('/Users/laurentb...', true, Array)
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php(10): get_header()
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template-loader.php(106): include('/Users/laurentb...')
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-blog-header.php(19): require_once('/Users/laurentb...')
+#15 /Users/laurentbinder/Sites/www/2021_06_test_WP/index.php(17): require('/Users/laurentb...')
+#16 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php à la ligne 11
+
+2021-07-07T08:01:29+00:00 CRITICAL Uncaught Error: Cannot use [] for reading in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php:11
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): mytheme_register_assets('')
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(3009): do_action('wp_head')
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/header.php(8): wp_head()
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(730): require_once('/Users/laurentb...')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(676): load_template('/Users/laurentb...', true, Array)
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php(10): get_header()
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template-loader.php(106): include('/Users/laurentb...')
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-blog-header.php(19): require_once('/Users/laurentb...')
+#15 /Users/laurentbinder/Sites/www/2021_06_test_WP/index.php(17): require('/Users/laurentb...')
+#16 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php à la ligne 11
+
+2021-07-07T08:01:32+00:00 CRITICAL Uncaught Error: Cannot use [] for reading in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php:11
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): mytheme_register_assets('')
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(3009): do_action('wp_head')
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/header.php(8): wp_head()
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(730): require_once('/Users/laurentb...')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(676): load_template('/Users/laurentb...', true, Array)
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php(10): get_header()
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template-loader.php(106): include('/Users/laurentb...')
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-blog-header.php(19): require_once('/Users/laurentb...')
+#15 /Users/laurentbinder/Sites/www/2021_06_test_WP/index.php(17): require('/Users/laurentb...')
+#16 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php à la ligne 11
+
+2021-07-07T08:01:34+00:00 CRITICAL Uncaught Error: Cannot use [] for reading in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php:11
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): mytheme_register_assets('')
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(3009): do_action('wp_head')
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/header.php(8): wp_head()
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(730): require_once('/Users/laurentb...')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template.php(676): load_template('/Users/laurentb...', true, Array)
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php(10): get_header()
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/template-loader.php(106): include('/Users/laurentb...')
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-blog-header.php(19): require_once('/Users/laurentb...')
+#15 /Users/laurentbinder/Sites/www/2021_06_test_WP/index.php(17): require('/Users/laurentb...')
+#16 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php à la ligne 11
+
+2021-07-07T08:02:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1127, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T08:03:45+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1128, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T08:03:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1129, 'Async Request')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+

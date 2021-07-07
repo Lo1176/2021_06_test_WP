@@ -8,7 +8,7 @@ function mytheme_supports () {
 // register CSS style exp with Bootstrap
 
 function mytheme_register_assets() {
-    wp_register_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css,' []);
+    wp_register_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
     wp_register_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js', [], false, true);
     // wp_deregister_script('jquery');
     wp_enqueue_style('bootstrap');
