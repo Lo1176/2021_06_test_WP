@@ -20,6 +20,5 @@ get_header() ?>
     <?php endwhile; else : ?>
         <p>Pas d'articles</p>
     <?php endif; ?>
-</body>
+    
 <?php get_footer() ?>
-<!-- </html> -->
