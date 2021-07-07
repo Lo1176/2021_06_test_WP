@@ -5,6 +5,8 @@ use Automattic\WooCommerce\Blocks\Domain\Bootstrap;
 function monTheme_supports()
 {
     add_theme_support('title-tag');
+    // ajoute "image mise en avant" pour les articles
+    add_theme_support('post-thumbnails');
 
     // register CSS style exp with Bootstrap
 
