@@ -1,15 +1,28 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head> -->
+<?php
 
-<?php get_header() ?>
+use ParagonIE\Sodium\Core\Curve25519\H;
+
+get_header() ?>
+
 <body>
-    Bonjour mon site perso
+    Theme à personnaliser dans MCLTheme index.php --> TITLE : <?php wp_title(); ?>
+
+    <!-- afficher des artiles -->
+    <?php if (have_posts()) : ?>
+        <ul>
+            <?php while (have_posts()) : the_post(); ?>
+                <li>
+                    <a href="<?php the_permalink() ?>">
+                        <?php the_title() ?>
+                    </a>
+                </li>
+        </ul>
+
+    <?php endwhile;
+        else : ?>
+
+    <p>Pas d'articles</p>
+<?php endif; ?>
 </body>
 <?php get_footer() ?>
 <!-- </html> -->

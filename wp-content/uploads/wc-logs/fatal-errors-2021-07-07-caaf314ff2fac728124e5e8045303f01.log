@@ -364,3 +364,315 @@ Stack trace:
 #10 {main}
   thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
 
+2021-07-07T09:45:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1138, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T09:54:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1139, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:03:42+00:00 CRITICAL syntax error, unexpected end of file dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php à la ligne 29
+
+2021-07-07T10:04:08+00:00 CRITICAL syntax error, unexpected end of file dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/functions.php à la ligne 29
+
+2021-07-07T10:04:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1140, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:04:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1141, 'Async Request')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:05:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1142, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:05:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1144, 'Async Request')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:06:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1145, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:08:24+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1146, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:12:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1147, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:12:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1148, 'Async Request')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:13:18+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1149, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:15:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1150, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:22:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1151, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:23:29+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1152, 'Async Request')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:25:26+00:00 CRITICAL syntax error, unexpected identifier "permalink" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 23
+
+2021-07-07T10:26:35+00:00 CRITICAL syntax error, unexpected token "else" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 29
+
+2021-07-07T10:26:41+00:00 CRITICAL syntax error, unexpected token "else" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 29
+
+2021-07-07T10:26:44+00:00 CRITICAL syntax error, unexpected token "else" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 29
+
+2021-07-07T10:27:14+00:00 CRITICAL syntax error, unexpected token "else" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 29
+
+2021-07-07T10:27:29+00:00 CRITICAL syntax error, unexpected token "else" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 20
+
+2021-07-07T10:27:29+00:00 CRITICAL syntax error, unexpected token "else" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 20
+
+2021-07-07T10:28:18+00:00 CRITICAL syntax error, unexpected token "else" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 20
+
+2021-07-07T10:28:26+00:00 CRITICAL syntax error, unexpected token "else" dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/themes/MCLTheme/index.php à la ligne 20
+
+2021-07-07T10:29:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1153, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:30:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1154, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:33:24+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1155, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-07-07T10:35:19+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(1156, 'WP Cron')
+#5 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /Users/laurentbinder/Sites/www/2021_06_test_WP/wp-includes/class-wp-hook.php à la ligne 292
+
