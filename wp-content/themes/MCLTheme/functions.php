@@ -18,7 +18,8 @@ function monTheme_supports()
     }
 };
 
-function monTheme_title_separator () {
+function monTheme_title_separator()
+{
     return '|';
 };
 
