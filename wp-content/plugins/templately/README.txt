@@ -1,11 +1,11 @@
 === Templately - Templates Cloud for Elementor & Gutenberg : 1000+ Free Designs! ===
-Contributors: templately, wpdevteam, re_enter_rupok, Asif2BD, priyomukul, shadab109, mahfuz01
+Contributors: templately, wpdevteam, re_enter_rupok, Asif2BD, priyomukul, rahat89, shadab109
 Donate link: https://templately.com
 Tags: templates, elementor, template-cloud, template, clouds, elementor templates, gutenberg, gutenberg templates, wordpress cloud, cloud backup
 Requires at least: 5.0
-Tested up to: 5.7.2
+Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 1.2.3
+Stable tag: 1.3.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -112,6 +112,13 @@ Yes, it will work with any standard WordPress theme.
 
 
 == Changelog ==
+
+= 1.3.0 - 04-07-2021 =
+Added: New Profile page with My Favourites & Downloaded Item List
+Fixed: Template Count issues for Gutenberg platform
+Fixed: Preloader not showing properly when items are  inserted
+Fixed: Dependency Selection Issue
+Few minor bug fix and improvements
 
 = 1.2.3 - 25-05-2021 =
 Fixed: My Cloud items not syncing after switching to a different account

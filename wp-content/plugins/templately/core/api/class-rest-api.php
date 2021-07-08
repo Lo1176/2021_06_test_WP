@@ -35,7 +35,7 @@ class REST {
      *
      * @return boolean
      */
-    public function check_permission() {
+    public function check_permission( $request ) {
         $api_key = DB::get_user_specific_login_meta( '_templately_api_key' );
         if( ! empty( $api_key ) && \user_can($this->current_user, 'edit_posts') ) {
             return true;
@@ -68,6 +68,73 @@ class REST {
                 ]
             ]
         ]);
+        /**
+         * My Favourites
+         */
+        register_rest_route( 'templately/v1', '/my-favourites', [
+            'methods'  => \WP_REST_Server::READABLE,
+            'callback' => [ $this, 'my_favourites' ],
+            'permission_callback' => [ $this, 'check_permission' ]
+        ]);
+        /**
+         * My Downloads
+         */
+        register_rest_route( 'templately/v1', '/my-downloads', [
+            'methods'  => \WP_REST_Server::READABLE,
+            'callback' => [ $this, 'my_downloads' ],
+            'permission_callback' => [ $this, 'check_permission' ]
+        ]);
+    }
+
+    public function my_favourites( $request ){
+        $type = "";
+        if( $request->has_param('type') ) {
+            $type = $request->get_param('type');
+        }
+        $plan_type = 1; // 1 = all, 2 = free, 3 = pro
+        if( $request->has_param('plan_type') ) {
+            $plan_type = intval( $request->get_param('plan_type') );
+        }
+        $page = 1;
+        if( $request->has_param('page') ) {
+            $page = intval( $request->get_param('page') );
+        }
+
+        $api_key = DB::get_user_specific_login_meta( '_templately_api_key' );
+        $response = Query::get(
+            Query::prepare(
+                'mutation { myFavouriteItem( api_key: "%s", type: "%s", plan_type: %d, per_page: 8, page: %d ){ total_page, current_page, data { id, name, rating, type, slug, favourite_count, thumbnail, price, author{ display_name, name, joined }, category{ id, name } } } }',
+                $api_key, $type, $plan_type, $page
+            ),
+            [
+                'is_rest' => true,
+                'only_data' => true,
+                'query' => 'myFavouriteItem'
+            ]
+        );
+
+        return $response;
+    }
+    public function my_downloads( $request ){
+        $page = 1;
+        if( $request->has_param('page') ) {
+            $page = $request->get_param('page');
+        }
+        $api_key = DB::get_user_specific_login_meta( '_templately_api_key' );
+        $response = Query::get(
+            Query::prepare(
+                'mutation { myDownloadHistory( api_key: "%s", per_page: 10, page: %s ){ data{ name, thumbnail, downloaded_at, slug, type }, current_page, total_page } }',
+                $api_key,
+                $page
+            ),
+            [
+                'is_rest' => true,
+                'only_data' => true,
+                'query' => 'myDownloadHistory'
+            ]
+        );
+
+        return $response;
     }
 
     public function error( $type = '' ) {

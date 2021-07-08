@@ -67,11 +67,11 @@ final class Plugin {
             self::$version = '0.0.1';
         }
         Installer::init();
+        Loader::add_action('admin_init', $this, 'migrate');
         self::$plugin_name = 'templately';
         $this->admin = Admin::get_instance();
         REST::get_instance();
         $this->elementor = Elementor::get_instance();
-        Loader::add_action('admin_init', $this, 'migrate');
         self::run();
         do_action('templately_init');
     }
@@ -114,6 +114,10 @@ final class Plugin {
             DB::delete_option('_templately_dependencies');
             DB::delete_option('_templately_tags');
             DB::delete_option('_templately_categories');
+        }
+
+        if( \version_compare(TEMPLATELY_VERSION, '1.3.0', '=') && \version_compare($templately_old_version, '1.2.3', '=') ) {
+            DB::delete_transient( 'templately_item_counts' );
         }
 
         // SET VERSION

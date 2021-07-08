@@ -2,6 +2,11 @@
 
 namespace Templately;
 
+use wp_remote_retrieve_response_code;
+use wp_remote_retrieve_response_message;
+use wp_remote_retrieve_body;
+use WP_REST_Response;
+
 class Query {
     private static $url = 'https://app.templately.com/api/plugin';
 
@@ -41,6 +46,10 @@ class Query {
         if( $response instanceof \WP_Error ) {
             return $response; // Return WP_Error, if it is an error.
         }
+
+        $response_code = wp_remote_retrieve_response_code($response);
+        $response_message = wp_remote_retrieve_response_message($response);
+
         /**
          * Retrive Data from Response Body.
          */

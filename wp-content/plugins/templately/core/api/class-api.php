@@ -273,26 +273,35 @@ class API {
 		}
 
 		$defaults = [
-			'items' => [
-				'total' => '1153',
-				'starter' => '781',
-				'pro' => '372',
+			'elementor' => [
+				'items' => [
+					'total' => '1469',
+					'starter' => '964',
+					'pro' => '415',
+				],
+				'blocks' => [
+					'total' => '517',
+					'starter' => '358',
+					'pro' => '159',
+				],
+				'pages' => [
+					'total' => '803',
+					'starter' => '506',
+					'pro' => '297',
+				],
+				'packs' => [
+					'total' => '149',
+					'starter' => '100',
+					'pro' => '49',
+				]
 			],
-			'blocks' => [
-				'total' => '473',
-				'starter' => '337',
-				'pro' => '136',
-			],
-			'pages' => [
-				'total' => '680',
-				'starter' => '444',
-				'pro' => '236',
-			],
-			'packs' => [
-				'total' => '128',
-				'starter' => '89',
-				'pro' => '39',
-			],
+			'gutenberg' => [
+				'blocks' => [
+					'total' => '3',
+					'starter' => '3',
+					'pro' => '0',
+				],
+			]
 		];
 
 		$data  = Query::get( '{ getCounts{ key, value } }' );
@@ -318,8 +327,20 @@ class API {
 					}
 				}
 			});
-			DB::set_transient('templately_item_counts', $new_array );
-			return $new_array;
+
+			$data = [
+				'elementor' => $new_array,
+				'gutenberg' => [
+					'blocks' => [
+						'total' => '3',
+						'starter' => '3',
+						'pro' => '0',
+					],
+				]
+			];
+
+			DB::set_transient('templately_item_counts', $data);
+			return $data;
 		}
 	}
 	/**
@@ -334,7 +355,7 @@ class API {
 		$query = '{ groupedCategories { item_categories { id, name, parent }, page_categories{ id, name, parent }, pack_categories{ id, name, parent } } }';
 		$data  = Query::get( $query );
 		if ( is_wp_error( $data ) ) {
-			Helper::send_error( $data->get_error_code() . ': ' . $data->get_error_message() );
+			return [];
 		}
 		$parentChildListedCategories = $newCategories = $new_category_list = [];
 		if ( ! empty( $data['data']['groupedCategories'] ) ) {
@@ -1159,6 +1180,9 @@ class API {
 			$user_data = $api_response;
 			$userState = [];
 			if ( isset( $user_data['user'], $user_data['user']['favourites'] ) ) {
+
+				$favourites_count = count( $user_data['user']['favourites'] );
+
 				$favourites = [
 					'item' => [],
 					'pack' => []
@@ -1171,6 +1195,7 @@ class API {
 					}
 				} );
 				$userState['favourites'] = $favourites;
+				$userState['favourites_items'] = $favourites_count;
 			}
 
 			if ( isset( $user_data['user'], $user_data['user']['id'] ) ) {
