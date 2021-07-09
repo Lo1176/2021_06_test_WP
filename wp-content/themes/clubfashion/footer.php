@@ -24,16 +24,16 @@
 		<div class="row">
 			<div class="col-12 text-center">
 				<p class="mb-0">
-				<?php esc_html_e( 'Theme by', 'clubfashion' ); ?>
+				<?php esc_html_e( 'Theme by', 'lb' ); ?>
 				<?php if ( is_home() && ! is_paged() ) : ?>
 					<a href="<?php echo esc_url( __( 'https://www.thewpclub.com', 'clubfashion' ) ); ?>" title="The WP Club" target="_blank">
 				<?php endif; ?>
-					The WP Club
+					Lo
 				<?php if ( is_home() && ! is_paged() ) : ?>
 					</a>
 				<?php endif; ?>
-				<span class="sep"> | </span> <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'clubfashion' ) ); ?>" target="_blank">
-					<?php /* translators: %s containing WordPress */ printf( esc_html__( 'Proudly powered by %s', 'clubfashion' ), 'WordPress' ); ?></a>
+				<span class="sep"> | </span> <a href="<?php echo esc_url( __( 'https://laurentbinder.com/', 'clubfashion' ) ); ?>" target="_blank">
+					<?php /* translators: %s containing WordPress */ printf( esc_html__( 'Proudly powered by %s', 'lb' ), 'Lo' ); ?></a>
 				</p>
 			</div>
 		</div>
