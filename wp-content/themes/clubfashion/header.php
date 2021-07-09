@@ -167,7 +167,7 @@ if ( function_exists( 'wp_body_open' ) ) {
 <?php if ( is_active_sidebar( 'primary_sidebar' ) ) : ?>
 <section class="sidebar position-fixed">
 	<div class="sidebar-button">
-		<a class="btn btn-sidebar text-uppercase rounded-0"><?php esc_html_e( 'Sidebar', 'clubfashion' ); ?></a>
+		<a class="btn btn-sidebar text-uppercase rounded-0"><?php esc_html_e( 'Recherche', 'clubfashion' ); ?></a>
 	</div>
 	<div class="sidebar-frame position-absolute bg-white border-start">
 		<div class="sidebar-main p-3 p-sm-5">
