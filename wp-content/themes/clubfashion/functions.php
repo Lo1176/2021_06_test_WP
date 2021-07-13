@@ -324,7 +324,7 @@ function clubfashion_bootstrap_menu() {
 	wp_nav_menu(
 		array(
 			'theme_location' => 'primary',
-			'depth'          => 2,
+			'depth'          => 5,
 			'menu_class'     => 'nav navbar-nav',
 			'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
 			'walker'         => new WP_Bootstrap_Navwalker(),
