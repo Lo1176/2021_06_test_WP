@@ -321,41 +321,41 @@ add_action( 'init', 'clubfashion_register_menu' );
  * Bootstrap Navigation
  */
 function clubfashion_bootstrap_menu() {
-	// wp_nav_menu(
-	// 	// array(
-	// 	// 	'theme_location' => 'primary',
-	// 	// 	'depth'          => 2,
-	// 	// 	'menu_class'     => 'nav navbar-nav',
-	// 	// 	'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
-	// 	// 	'walker'         => new WP_Bootstrap_Navwalker(),
-	// 	// )
-	// 	array(
-	// 	'menu'                 => '',
-	// 	'container'            => 'div',
-	// 	'container_class'      => '',
-	// 	'container_id'         => '',
-	// 	'container_aria_label' => '',
-	// 	'menu_class'           => 'nav navbar-nav',
-	// 	'menu_id'              => '',
-	// 	'echo'                 => true,
-	// 	'fallback_cb'          => 'wp_page_menu',
-	// 	'before'               => '',
-	// 	'after'                => '',
-	// 	'link_before'          => '',
-	// 	'link_after'           => '',
-	// 	'items_wrap'           => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-	// 	'item_spacing'         => 'preserve',
-	// 	'depth'                => 0,
-	// 	'walker'               => '',
-	// 	'theme_location'       => '',
-	// 	)
-		wp_nav_menu(
-	array(
-		'theme_location' => 'primary',
-		'menu_id'        => 'primary-menu',
-		'container_class'=> 'ms-auto ',
-		'menu_class'=>'nav navbar-nav'
-	)
+	wp_nav_menu(
+		array(
+			'theme_location' => 'primary',
+			'depth'          => 2,
+			'menu_class'     => 'nav navbar-nav',
+			'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
+			'walker'         => new WP_Bootstrap_Navwalker(),
+		)
+		// array(
+		// 'menu'                 => '',
+		// 'container'            => 'div',
+		// 'container_class'      => '',
+		// 'container_id'         => '',
+		// 'container_aria_label' => '',
+		// 'menu_class'           => 'nav navbar-nav',
+		// 'menu_id'              => '',
+		// 'echo'                 => true,
+		// 'fallback_cb'          => 'wp_page_menu',
+		// 'before'               => '',
+		// 'after'                => '',
+		// 'link_before'          => '',
+		// 'link_after'           => '',
+		// 'items_wrap'           => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+		// 'item_spacing'         => 'preserve',
+		// 'depth'                => 2,
+		// 'walker'               => '',
+		// 'theme_location'       => '',
+		// )
+	// 	wp_nav_menu(
+	// array(
+	// 	'theme_location' => 'primary',
+	// 	'menu_id'        => 'primary-menu',
+	// 	'container_class'=> 'ms-auto ',
+	// 	'menu_class'=>'nav navbar-nav'
+	// )
 // 
 
 

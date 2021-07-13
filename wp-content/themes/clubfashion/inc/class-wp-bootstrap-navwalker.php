@@ -188,6 +188,15 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 				$atts['aria-expanded']  = 'false';
 				$atts['class']          = 'dropdown-toggle nav-link';
 				$atts['id']             = 'menu-item-dropdown-' . $item->ID;
+
+				// test submenu don't show up
+				// $atts['href']           = '#';
+				// $atts['data-bs-toggle'] = 'dropdown';
+				// $atts['aria-haspopup']  = 'true';
+				// $atts['aria-expanded']  = 'false';
+				// $atts['class']          = 'dropdown-toggle nav-link';
+				// $atts['id']             = 'menu-item-dropdown-' . $item->ID;
+				// $atts['role']			= "button";
 			} else {
 				$atts['href'] = ! empty( $item->url ) ? $item->url : '#';
 				// Items in dropdowns use .dropdown-item instead of .nav-link.
